@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">استوديو الصور بالذكاء الاصطناعي</string>
+    <string name="developer_name">سينا نادري (Sina Naderi)</string>
+    <string name="developer_email">sinananderi203@gmail.com</string>
+    <string name="app_version">١.٠</string>
+
+    <!-- اختيار اللغة -->
+    <string name="choose_language_title">اختر لغتك المفضلة</string>
+    <string name="choose_language_subtitle">حدد اللغة للبدء في استخدام التطبيق</string>
+    <string name="continue_button">متابعة</string>
+    <string name="lang_en">English (الإنجليزية)</string>
+    <string name="lang_fa">فارسی (الفارسية)</string>
+    <string name="lang_ar">العربية (Arabic)</string>
+    <string name="lang_zh">中文 (الصينية)</string>
+    <string name="lang_ru">Русский (الروسية)</string>
+
+    <!-- التنقل الرئيسي -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_ai_studio">استوديو الذكاء الاصطناعي</string>
+    <string name="nav_edit">تعديل</string>
+    <string name="nav_beauty">الجمال</string>
+    <string name="nav_body">الجسم</string>
+    <string name="nav_filters">الفلاتر</string>
+    <string name="nav_tools">الأدوات</string>
+
+    <!-- لوحة التحكم -->
+    <string name="hero_title">اصنع شيئاً مذهلاً</string>
+    <string name="hero_subtitle">تعديل وتحسين احترافي للصور بتقنيات الذكاء الاصطناعي</string>
+    <string name="btn_choose_photo">اختيار صورة</string>
+    <string name="btn_take_photo">الكاميرا</string>
+    <string name="btn_ai_edit">تعديل بالذكاء الاصطناعي</string>
+    <string name="btn_try_sample">تجربة عينة الاستوديو</string>
+    <string name="section_ai_tools">أدوات الذكاء الاصطناعي</string>
+    <string name="section_quick_edit">تعديل سريع</string>
+    <string name="section_beauty">استوديو الجمال</string>
+    <string name="section_body">نحت وتنسيق الجسم</string>
+    <string name="section_filters">الفلاتر والمؤثرات</string>
+    <string name="section_recent_projects">المشاريع الأخيرة</string>
+    <string name="no_recent_projects">لا توجد مشاريع حديثة. اختر صورة للبدء!</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="search_tools_hint">البحث عن الأدوات والتأثيرات...</string>
+
+    <!-- استيراد الصور -->
+    <string name="import_photo_title">تحديد صورة</string>
+    <string name="import_gallery">معرض الصور</string>
+    <string name="import_camera">الكاميرا</string>
+    <string name="import_sample">عينة الاستوديو</string>
+    <string name="permission_camera_required">مطلوب إذن الكاميرا لالتقاط الصور مباشرة.</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="cancelled_selection">تم إلغاء اختيار الصورة</string>
+    <string name="error_image_load">تعذر فتح الصورة المحددة. يرجى تجربة صورة أخرى.</string>
+
+    <!-- عناصر التحكم في المحرر -->
+    <string name="action_undo">تراجع</string>
+    <string name="action_redo">إعادة</string>
+    <string name="action_reset">إعادة ضبط</string>
+    <string name="action_compare">اضغط باستمرار للمقارنة</string>
+    <string name="action_export">تصدير</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_apply">تطبيق</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_open">فتح</string>
+    <string name="action_close">إغلاق</string>
+
+    <!-- القص والتدوير -->
+    <string name="action_crop">قص</string>
+    <string name="action_rotate">تدوير</string>
+    <string name="action_flip">انعكاس</string>
+    <string name="action_straighten">استقامة</string>
+
+    <!-- التعديلات الأساسية -->
+    <string name="tool_brightness">السطوع</string>
+    <string name="tool_contrast">التباين</string>
+    <string name="tool_saturation">التشبع</string>
+    <string name="tool_exposure">التعريض</string>
+    <string name="tool_highlights">الإضاءات العالية</string>
+    <string name="tool_shadows">الظلال</string>
+    <string name="tool_temperature">الدفء</string>
+    <string name="tool_tint">درجة اللون</string>
+    <string name="tool_sharpness">الحدة</string>
+    <string name="tool_blur">التمويه</string>
+    <string name="tool_vignette">تعتيم الحواف</string>
+
+    <!-- التعديلات المتقدمة -->
+    <string name="tool_hsl">ألوان HSL</string>
+    <string name="tool_curves">المنحنيات اللونية</string>
+    <string name="tool_color_balance">توازن الألوان</string>
+    <string name="advanced_tools">أدوات المحترفين</string>
+
+    <!-- استوديو الذكاء الاصطناعي -->
+    <string name="ai_studio_title">استوديو الذكاء الاصطناعي</string>
+    <string name="ai_studio_desc">عدّل صورك بكتابة أوامر باللغة الطبيعية</string>
+    <string name="prompt_placeholder">اكتب أمر الذكاء الاصطناعي (مثال: إضاءة سينمائية، إزالة الشخص)...</string>
+    <string name="btn_generate">توليد بالذكاء الاصطناعي</string>
+    <string name="ai_processing">جاري المعالجة عبر محرك الذكاء الاصطناعي...</string>
+    <string name="ai_not_configured_title">حالة محرك الذكاء الاصطناعي</string>
+    <string name="ai_not_configured_msg">واجهة AIImageEngine جاهزة للتوصيل. تتطلب الخدمة السحابية إعداد مفتاح API في لوحة الإعدادات. لا يتم عرض نتائج وهمية.</string>
+    <string name="example_prompts_title">أوامر مقترحة</string>
+    <string name="prompt_remove_person">إزالة الشخص من الخلفية</string>
+    <string name="prompt_change_shirt">تغيير لون القميص إلى الأسود</string>
+    <string name="prompt_luxury_studio">تحويل الخلفية إلى استوديو فخم</string>
+    <string name="prompt_cinematic_lighting">إضافة إضاءة سينمائية درامية</string>
+    <string name="prompt_sunset_sky">تغيير السماء إلى غروب شمس ذهبي</string>
+    <string name="prompt_sharpen_quality">زيادة الدقة والتفاصيل وجودة الصورة</string>
+
+    <!-- التحسين التلقائي -->
+    <string name="ai_enhance_title">✨ التحسين التلقائي الذكي</string>
+    <string name="ai_enhance_desc">تحسين شامل فوري للتعريض والتباين والحدة وتوازن البشرة</string>
+    <string name="enhancing_image">جاري تحليل تفاصيل الصورة...</string>
+    <string name="enhance_applied">تم تطبيق التحسين التلقائي بنجاح!</string>
+
+    <!-- إزالة العناصر -->
+    <string name="object_remover_title">إزالة العناصر</string>
+    <string name="object_remover_desc">مرر الفرشاة فوق أي عنصر غير مرغوب لإزالته</string>
+    <string name="brush_size">حجم الفرشاة</string>
+    <string name="btn_remove_object">إزالة العنصر</string>
+    <string name="clear_mask">مسح التحديد</string>
+    <string name="object_removal_notice">تم تطبيق الترميم الموضعي. وحدة الترميم التوليدي جاهزة للربط بالسحابة.</string>
+
+    <!-- أدوات الخلفية -->
+    <string name="bg_tools_title">استوديو الخلفية</string>
+    <string name="bg_remover">إزالة الخلفية</string>
+    <string name="bg_blur">تمويه الخلفية</string>
+    <string name="bg_replace">استبدال الخلفية</string>
+    <string name="bg_color">لون الخلفية</string>
+    <string name="bg_generator">توليد خلفية بالذكاء الاصطناعي</string>
+    <string name="color_solid">لون موحد</string>
+    <string name="color_gradient">تدرج لوني</string>
+
+    <!-- الملابس والموضة -->
+    <string name="outfit_title">الملابس بالذكاء الاصطناعي</string>
+    <string name="outfit_desc">تغيير ألوان وتصاميم الملابس مع الحفاظ على ملامح الوجه</string>
+    <string name="outfit_black_shirt">قميص أسود</string>
+    <string name="outfit_formal_suit">بدلة رسمية فاخرة</string>
+    <string name="outfit_red_dress">فستان حريري أحمر</string>
+    <string name="outfit_leather_jacket">سترة جلدية كلاسيكية</string>
+    <string name="outfit_streetwear">أزياء الشارع العصرية</string>
+
+    <!-- تعديل الجسم -->
+    <string name="body_title">تعديل ونحت الجسم</string>
+    <string name="body_desc">تعديل تناسق الجسم بدون تشويه الخلفية</string>
+    <string name="body_slim">تنحيف</string>
+    <string name="body_enlarge">تكبير وتنسيق</string>
+    <string name="body_waist">الخصر</string>
+    <string name="body_shoulders">الأكتاف</string>
+    <string name="body_arms">الذراعين</string>
+    <string name="body_legs">الساقين</string>
+    <string name="body_hips">الأرداف</string>
+    <string name="body_chest">الصدر</string>
+    <string name="body_height">الطول</string>
+    <string name="body_proportions">تناسق القوام</string>
+    <string name="body_reset">إعادة ضبط الجسم</string>
+
+    <!-- استوديو الجمال -->
+    <string name="beauty_title">استوديو الجمال</string>
+    <string name="cat_skin">البشرة</string>
+    <string name="cat_makeup">المكياج</string>
+    <string name="cat_eyes">العيون</string>
+    <string name="cat_lips">الشفاه</string>
+    <string name="cat_hair">الشعر</string>
+    <string name="cat_face">الوجه</string>
+    <string name="beauty_smoothing">تنعيم البشرة</string>
+    <string name="beauty_blemish">إزالة الشوائب والعيوب</string>
+    <string name="beauty_tone">درجة لون البشرة</string>
+    <string name="beauty_foundation">كريم الأساس</string>
+    <string name="beauty_concealer">الكونسيلر</string>
+    <string name="beauty_blush">أحمر الخدود</string>
+    <string name="beauty_lipstick">أحمر الشفاه</string>
+    <string name="beauty_eyeliner">كحل العيون</string>
+    <string name="beauty_eyeshadow">ظلال العيون</string>
+    <string name="beauty_eyelashes">الرموش</string>
+    <string name="beauty_eyebrows">تحديد الحواجب</string>
+    <string name="beauty_teeth">تبييض الأسنان</string>
+    <string name="beauty_hair_color">لون الشعر</string>
+    <string name="beauty_face_shape">تحديد شكل الوجه</string>
+    <string name="beauty_jaw">الفك</string>
+    <string name="beauty_cheeks">الوجنتين</string>
+    <string name="beauty_nose">تصغير الأنف</string>
+    <string name="beauty_chin">الذقن</string>
+
+    <!-- الفلاتر -->
+    <string name="filters_title">مكتبة الفلاتر</string>
+    <string name="filter_none">الأصلي</string>
+    <string name="filter_cinematic">سينمائي</string>
+    <string name="filter_portrait">بورتريه</string>
+    <string name="filter_vintage">كلاسيكي</string>
+    <string name="filter_bw">أبيض وأسود</string>
+    <string name="filter_warm">غروب دافئ</string>
+    <string name="filter_cool">بارد نورديك</string>
+    <string name="filter_fashion">أزياء ومجلات</string>
+    <string name="filter_night">ليلي نيون</string>
+    <string name="filter_travel">سفر وترحال</string>
+    <string name="filter_nature">طبيعة زمردية</string>
+    <string name="filter_hdr">تعزيز HDR</string>
+    <string name="filter_film">فيلم تناظري</string>
+    <string name="filter_retro">ريترو التسعينات</string>
+    <string name="filter_intensity">شدة التأثير</string>
+    <string name="ai_filter_gen_title">مولّد الفلاتر بالذكاء الاصطناعي</string>
+    <string name="ai_filter_placeholder">صف الطابع أو الجو المطلوب (مثال: بورتريه مظلم وغامض)...</string>
+
+    <!-- النصوص والملصقات -->
+    <string name="text_and_stickers">النصوص والملصقات</string>
+    <string name="tool_text">نص</string>
+    <string name="tool_stickers">ملصقات</string>
+    <string name="tool_frame">إطارات</string>
+    <string name="tool_collage">تجميع الصور</string>
+    <string name="add_text">إضافة نص</string>
+    <string name="text_hint">اكتب النص هنا...</string>
+
+    <!-- قوالب الكولاج -->
+    <string name="layout_2_photo">تجميع صورتين</string>
+    <string name="layout_3_photo">تجميع ٣ صور</string>
+    <string name="layout_4_photo">شبكة ٤ صور</string>
+
+    <!-- التصدير -->
+    <string name="export_title">تصدير الصورة</string>
+    <string name="export_format">صيغة الملف</string>
+    <string name="export_quality">الجودة</string>
+    <string name="export_resolution">الدقة</string>
+    <string name="estimated_file_size">الحجم التقديري</string>
+    <string name="btn_save_gallery">حفظ في المعرض</string>
+    <string name="btn_share_image">مشاركة الصورة</string>
+    <string name="export_success">تم حفظ الصورة بنجاح في المعرض!</string>
+    <string name="export_failed">فشل التصدير: </string>
+
+    <!-- المشاريع -->
+    <string name="projects_title">المشاريع الأخيرة</string>
+    <string name="project_name">مشروع</string>
+    <string name="project_saved_success">تم حفظ المشروع</string>
+    <string name="confirm_delete_project">هل أنت متأكد من حذف هذا المشروع؟</string>
+
+    <!-- الإعدادات والمعلومات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="setting_language">اللغة (Language)</string>
+    <string name="setting_theme">المظهر</string>
+    <string name="theme_system">تلقائي حسب النظام</string>
+    <string name="theme_light">مظهر فاتح</string>
+    <string name="theme_dark">مظهر داكن</string>
+    <string name="setting_quality">جودة الحفظ الافتراضية</string>
+    <string name="setting_privacy">الخصوصية والأمان</string>
+    <string name="clear_projects">مسح المشاريع الأخيرة</string>
+    <string name="reset_settings">إعادة ضبط الإعدادات</string>
+    <string name="about_title">حول التطبيق</string>
+    <string name="about_app">استوديو الصور بالذكاء الاصطناعي</string>
+    <string name="about_developed_by">المطور:</string>
+    <string name="about_developer">سينا نادري (Sina Naderi)</string>
+    <string name="about_email">البريد الإلكتروني:</string>
+    <string name="about_email_val">sinananderi203@gmail.com</string>
+
+    <!-- الخصوصية -->
+    <string name="privacy_title">بنية الخصوصية</string>
+    <string name="privacy_info">تتم جميع تعديلات الألوان والجمال وتعديل الجسم محلياً بنسبة ١٠٠٪ على هاتفك دون اتصال بالإنترنت. لا يتم إرسال أي صورة إلى نماذج الذكاء الاصطناعي الخارجية دون موافقة مسبقة.</string>
+    <string name="local_processing_badge">معالجة محلية بالكامل على الجهاز</string>
+
+    <!-- الإعلانات والترقية -->
+    <string name="premium_feature">ميزة احترافية (Pro)</string>
+    <string name="rewarded_ad_title">فتح عبر إعلان</string>
+    <string name="rewarded_ad_desc">شاهد إعلاناً قصيراً لفتح هذه الأداة الذكية</string>
+    <string name="ad_ready">جاهز للمشاهدة</string>
+    <string name="ad_unavailable">الإعلان غير متاح حالياً</string>
+    <string name="ad_completed">تم فتح الميزة بنجاح!</string>
+
+    <!-- Additional Editor V1.1 Strings -->
+    <string name="tool_fade">تلاشي (Fade)</string>
+    <string name="tool_grain">حبيبات الفيلم</string>
+    <string name="reset_individual">إعادة ضبط</string>
+    <string name="btn_apply_crop">تطبيق القص</string>
+    <string name="btn_cancel_crop">إلغاء</string>
+    <string name="transform_rotate_left">تدوير -٩٠°</string>
+    <string name="transform_rotate_right">تدوير +٩٠°</string>
+    <string name="transform_flip_h">انعكاس أفقي</string>
+    <string name="transform_flip_v">انعكاس رأسي</string>
+    <string name="transform_straighten">محاذاة واستقامة</string>
+    <string name="ai_processing_required">يتطلب معالجة بالذكاء الاصطناعي</string>
+    <string name="ai_beauty_notice">تعديلات الوجه ثلاثية الأبعاد المتقدمة تتطلب نماذج سحابية للذكاء الاصطناعي.</string>
+    <string name="text_tool_title">استوديو النصوص</string>
+    <string name="text_font">الخط</string>
+    <string name="text_color">اللون</string>
+    <string name="text_shadow">الظل</string>
+    <string name="text_badge">شريط الخلفية</string>
+    <string name="text_opacity">الشفافية</string>
+    <string name="text_rotate">تدوير</string>
+    <string name="text_scale">تكبير</string>
+    <string name="text_delete">حذف</string>
+    <string name="nav_adjust">تعديل</string>
+    <string name="nav_crop">قص</string>
+    <string name="nav_transform">تحويل</string>
+    <string name="nav_text">نص</string>
+</resources>

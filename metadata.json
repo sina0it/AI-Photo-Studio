@@ -1,0 +1,7 @@
+{
+  "name": "AI Photo Studio",
+  "description": "Professional AI-powered photo editing studio with beauty, body, filters, and generative enhancement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

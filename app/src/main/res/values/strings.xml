@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">AI Photo Studio</string>
+    <string name="developer_name">Sina Naderi</string>
+    <string name="developer_email">sinananderi203@gmail.com</string>
+    <string name="app_version">1.0</string>
+
+    <!-- Language Picker -->
+    <string name="choose_language_title">Choose your language</string>
+    <string name="choose_language_subtitle">Select your preferred language to get started</string>
+    <string name="continue_button">Continue</string>
+    <string name="lang_en">English</string>
+    <string name="lang_fa">فارسی (Persian)</string>
+    <string name="lang_ar">العربية (Arabic)</string>
+    <string name="lang_zh">中文 (Chinese)</string>
+    <string name="lang_ru">Русский (Russian)</string>
+
+    <!-- Main Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_ai_studio">AI Studio</string>
+    <string name="nav_edit">Edit</string>
+    <string name="nav_beauty">Beauty</string>
+    <string name="nav_body">Body</string>
+    <string name="nav_filters">Filters</string>
+    <string name="nav_tools">Tools</string>
+
+    <!-- Home Dashboard -->
+    <string name="hero_title">Create something amazing</string>
+    <string name="hero_subtitle">Professional AI photo editing and studio retouching</string>
+    <string name="btn_choose_photo">Choose Photo</string>
+    <string name="btn_take_photo">Camera</string>
+    <string name="btn_ai_edit">AI Edit</string>
+    <string name="btn_try_sample">Try Studio Demo</string>
+    <string name="section_ai_tools">AI Tools</string>
+    <string name="section_quick_edit">Quick Edit</string>
+    <string name="section_beauty">Beauty Studio</string>
+    <string name="section_body">Body Sculptor</string>
+    <string name="section_filters">Filters</string>
+    <string name="section_recent_projects">Recent Projects</string>
+    <string name="no_recent_projects">No recent projects yet. Pick a photo to begin!</string>
+    <string name="view_all">View All</string>
+    <string name="search_tools_hint">Search tools, adjustments &amp; effects...</string>
+
+    <!-- Photo Import & Permissions -->
+    <string name="import_photo_title">Select Photo</string>
+    <string name="import_gallery">Gallery</string>
+    <string name="import_camera">Camera</string>
+    <string name="import_sample">Studio Sample</string>
+    <string name="permission_camera_required">Camera permission is required to capture photos directly.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="cancelled_selection">Photo selection cancelled</string>
+    <string name="error_image_load">Failed to open selected image. Please try another.</string>
+
+    <!-- Workspace Controls -->
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_compare">Hold to Compare</string>
+    <string name="action_export">Export</string>
+    <string name="action_save">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_open">Open</string>
+    <string name="action_close">Close</string>
+
+    <!-- Crop & Geometry -->
+    <string name="action_crop">Crop</string>
+    <string name="action_rotate">Rotate</string>
+    <string name="action_flip">Flip</string>
+    <string name="action_straighten">Straighten</string>
+
+    <!-- Basic Adjustments -->
+    <string name="tool_brightness">Brightness</string>
+    <string name="tool_contrast">Contrast</string>
+    <string name="tool_saturation">Saturation</string>
+    <string name="tool_exposure">Exposure</string>
+    <string name="tool_highlights">Highlights</string>
+    <string name="tool_shadows">Shadows</string>
+    <string name="tool_temperature">Warmth</string>
+    <string name="tool_tint">Tint</string>
+    <string name="tool_sharpness">Sharpness</string>
+    <string name="tool_blur">Blur</string>
+    <string name="tool_vignette">Vignette</string>
+
+    <!-- Advanced Adjustments -->
+    <string name="tool_hsl">HSL Color</string>
+    <string name="tool_curves">Tone Curves</string>
+    <string name="tool_color_balance">Color Balance</string>
+    <string name="advanced_tools">Pro Adjustments</string>
+
+    <!-- AI Studio & Prompts -->
+    <string name="ai_studio_title">AI Studio</string>
+    <string name="ai_studio_desc">Transform your photo using natural language instructions</string>
+    <string name="prompt_placeholder">Enter AI command (e.g. \"Change lighting to cinematic\", \"Remove person\")...</string>
+    <string name="btn_generate">Generate with AI</string>
+    <string name="ai_processing">Processing with AI Engine...</string>
+    <string name="ai_not_configured_title">AI Engine Backend Status</string>
+    <string name="ai_not_configured_msg">The modular AIImageEngine interface is ready. Cloud AI endpoint is awaiting API configuration in AI Studio Secrets panel. No simulated fake results are produced.</string>
+    <string name="example_prompts_title">Sample Prompts</string>
+    <string name="prompt_remove_person">Remove the person in the background</string>
+    <string name="prompt_change_shirt">Change my shirt to black</string>
+    <string name="prompt_luxury_studio">Make the background a luxury studio</string>
+    <string name="prompt_cinematic_lighting">Make the lighting cinematic</string>
+    <string name="prompt_sunset_sky">Change the sky to sunset</string>
+    <string name="prompt_sharpen_quality">Make the image sharper and higher quality</string>
+
+    <!-- AI Auto Enhance -->
+    <string name="ai_enhance_title">✨ AI Auto Enhance</string>
+    <string name="ai_enhance_desc">Smart multi-factor optimization for exposure, contrast, sharpness, and skin balance</string>
+    <string name="enhancing_image">Enhancing image details...</string>
+    <string name="enhance_applied">AI Auto Enhance applied!</string>
+
+    <!-- Object Remover -->
+    <string name="object_remover_title">Object Remover</string>
+    <string name="object_remover_desc">Paint over any unwanted object or distraction to erase</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="btn_remove_object">Remove Object</string>
+    <string name="clear_mask">Clear Selection</string>
+    <string name="object_removal_notice">Local spot healing applied. Generative inpainting module is ready for cloud AI connection.</string>
+
+    <!-- Background Tools -->
+    <string name="bg_tools_title">Background Studio</string>
+    <string name="bg_remover">Background Remover</string>
+    <string name="bg_blur">Background Blur</string>
+    <string name="bg_replace">Background Replace</string>
+    <string name="bg_color">Background Color</string>
+    <string name="bg_generator">AI Background Generator</string>
+    <string name="color_solid">Solid Color</string>
+    <string name="color_gradient">Gradient</string>
+
+    <!-- Clothing & Outfit AI -->
+    <string name="outfit_title">AI Outfit</string>
+    <string name="outfit_desc">Change clothing colors, patterns, and style seamlessly</string>
+    <string name="outfit_black_shirt">Black Shirt</string>
+    <string name="outfit_formal_suit">Formal Suit</string>
+    <string name="outfit_red_dress">Red Silk Dress</string>
+    <string name="outfit_leather_jacket">Leather Jacket</string>
+    <string name="outfit_streetwear">Urban Streetwear</string>
+
+    <!-- Body Editor -->
+    <string name="body_title">Body Sculptor</string>
+    <string name="body_desc">Proportional refinement and contouring controls</string>
+    <string name="body_slim">Slim</string>
+    <string name="body_enlarge">Enlarge</string>
+    <string name="body_waist">Waist</string>
+    <string name="body_shoulders">Shoulders</string>
+    <string name="body_arms">Arms</string>
+    <string name="body_legs">Legs</string>
+    <string name="body_hips">Hips</string>
+    <string name="body_chest">Chest</string>
+    <string name="body_height">Height</string>
+    <string name="body_proportions">Body Proportions</string>
+    <string name="body_reset">Reset Body</string>
+
+    <!-- Beauty Studio -->
+    <string name="beauty_title">Beauty Studio</string>
+    <string name="cat_skin">SKIN</string>
+    <string name="cat_makeup">MAKEUP</string>
+    <string name="cat_eyes">EYES</string>
+    <string name="cat_lips">LIPS</string>
+    <string name="cat_hair">HAIR</string>
+    <string name="cat_face">FACE</string>
+    <string name="beauty_smoothing">Skin Smoothing</string>
+    <string name="beauty_blemish">Blemish Removal</string>
+    <string name="beauty_tone">Skin Tone</string>
+    <string name="beauty_foundation">Foundation</string>
+    <string name="beauty_concealer">Concealer</string>
+    <string name="beauty_blush">Blush</string>
+    <string name="beauty_lipstick">Lipstick</string>
+    <string name="beauty_eyeliner">Eyeliner</string>
+    <string name="beauty_eyeshadow">Eyeshadow</string>
+    <string name="beauty_eyelashes">Eyelashes</string>
+    <string name="beauty_eyebrows">Eyebrow Enhancement</string>
+    <string name="beauty_teeth">Teeth Whitening</string>
+    <string name="beauty_hair_color">Hair Color</string>
+    <string name="beauty_face_shape">Face Shape</string>
+    <string name="beauty_jaw">Jaw</string>
+    <string name="beauty_cheeks">Cheeks</string>
+    <string name="beauty_nose">Nose</string>
+    <string name="beauty_chin">Chin</string>
+
+    <!-- Filters -->
+    <string name="filters_title">Filter Presets</string>
+    <string name="filter_none">Original</string>
+    <string name="filter_cinematic">Cinematic</string>
+    <string name="filter_portrait">Portrait</string>
+    <string name="filter_vintage">Vintage</string>
+    <string name="filter_bw">Black &amp; White</string>
+    <string name="filter_warm">Warm Sunset</string>
+    <string name="filter_cool">Cool Nordic</string>
+    <string name="filter_fashion">Fashion Vogue</string>
+    <string name="filter_night">Neon Night</string>
+    <string name="filter_travel">Travel Mood</string>
+    <string name="filter_nature">Nature Green</string>
+    <string name="filter_hdr">HDR Boost</string>
+    <string name="filter_film">Analog Film</string>
+    <string name="filter_retro">Retro 90s</string>
+    <string name="filter_intensity">Intensity</string>
+    <string name="ai_filter_gen_title">AI Filter Generator</string>
+    <string name="ai_filter_placeholder">Describe desired aesthetic (e.g. \"Dark cinematic portrait\")...</string>
+
+    <!-- Text & Stickers -->
+    <string name="text_and_stickers">Text &amp; Stickers</string>
+    <string name="tool_text">Text</string>
+    <string name="tool_stickers">Stickers</string>
+    <string name="tool_frame">Frame</string>
+    <string name="tool_collage">Collage</string>
+    <string name="add_text">Add Text</string>
+    <string name="text_hint">Type text here...</string>
+
+    <!-- Collage Layouts -->
+    <string name="layout_2_photo">2-Photo Collage</string>
+    <string name="layout_3_photo">3-Photo Collage</string>
+    <string name="layout_4_photo">4-Photo Grid</string>
+
+    <!-- Export -->
+    <string name="export_title">Export Studio</string>
+    <string name="export_format">Image Format</string>
+    <string name="export_quality">Quality</string>
+    <string name="export_resolution">Resolution</string>
+    <string name="estimated_file_size">Estimated file size</string>
+    <string name="btn_save_gallery">Save to Gallery</string>
+    <string name="btn_share_image">Share Photo</string>
+    <string name="export_success">Photo successfully saved to your gallery!</string>
+    <string name="export_failed">Export error: </string>
+
+    <!-- Projects -->
+    <string name="projects_title">Recent Projects</string>
+    <string name="project_name">Project</string>
+    <string name="project_saved_success">Project saved</string>
+    <string name="confirm_delete_project">Are you sure you want to delete this project?</string>
+
+    <!-- Settings & About -->
+    <string name="settings_title">Settings</string>
+    <string name="setting_language">Language</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="setting_quality">Save Quality</string>
+    <string name="setting_privacy">Privacy &amp; Security</string>
+    <string name="clear_projects">Clear Recent Projects</string>
+    <string name="reset_settings">Reset All Settings</string>
+    <string name="about_title">About</string>
+    <string name="about_app">AI Photo Studio</string>
+    <string name="about_developed_by">Developed by:</string>
+    <string name="about_developer">Sina Naderi</string>
+    <string name="about_email">Email:</string>
+    <string name="about_email_val">sinananderi203@gmail.com</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy Architecture</string>
+    <string name="privacy_info">All basic adjustments, face beauty filters, body editing, and collage rendering execute 100% locally on your device. User consent is strictly confirmed before communicating with external AI services. User photos are never stored remotely in V1.</string>
+    <string name="local_processing_badge">Local Device Processing</string>
+
+    <!-- Ads & Premium -->
+    <string name="premium_feature">Pro Feature</string>
+    <string name="rewarded_ad_title">Unlock with Ad</string>
+    <string name="rewarded_ad_desc">Watch a short sponsor video to unlock this AI tool</string>
+    <string name="ad_ready">Ready to watch</string>
+    <string name="ad_unavailable">Ad unavailable at this time</string>
+    <string name="ad_completed">Reward unlocked successfully!</string>
+
+    <!-- Additional Editor V1.1 Strings -->
+    <string name="tool_fade">Fade</string>
+    <string name="tool_grain">Film Grain</string>
+    <string name="reset_individual">Reset</string>
+    <string name="btn_apply_crop">Apply Crop</string>
+    <string name="btn_cancel_crop">Cancel</string>
+    <string name="transform_rotate_left">Rotate -90°</string>
+    <string name="transform_rotate_right">Rotate +90°</string>
+    <string name="transform_flip_h">Flip H</string>
+    <string name="transform_flip_v">Flip V</string>
+    <string name="transform_straighten">Straighten</string>
+    <string name="ai_processing_required">AI Processing Required</string>
+    <string name="ai_beauty_notice">Advanced 3D facial shaping and geometry alterations require cloud AI models. Routed through AIImageEngine interface.</string>
+    <string name="text_tool_title">Text Studio</string>
+    <string name="text_font">Font</string>
+    <string name="text_color">Color</string>
+    <string name="text_shadow">Shadow</string>
+    <string name="text_badge">Badge</string>
+    <string name="text_opacity">Opacity</string>
+    <string name="text_rotate">Rotate</string>
+    <string name="text_scale">Scale</string>
+    <string name="text_delete">Delete</string>
+    <string name="nav_adjust">ADJUST</string>
+    <string name="nav_crop">CROP</string>
+    <string name="nav_transform">TRANSFORM</string>
+    <string name="nav_text">TEXT</string>
+</resources>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Photo Studio</string>
+    <string name="developer_name">Sina Naderi</string>
+    <string name="developer_email">sinananderi203@gmail.com</string>
+    <string name="app_version">1.0</string>
+
+    <!-- 语言选择 -->
+    <string name="choose_language_title">选择您的语言</string>
+    <string name="choose_language_subtitle">请选择您偏好的语言以开始使用</string>
+    <string name="continue_button">继续</string>
+    <string name="lang_en">English (英语)</string>
+    <string name="lang_fa">فارسی (波斯语)</string>
+    <string name="lang_ar">العربية (阿拉伯语)</string>
+    <string name="lang_zh">中文 (Chinese)</string>
+    <string name="lang_ru">Русский (俄语)</string>
+
+    <!-- 底部导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_ai_studio">AI工坊</string>
+    <string name="nav_edit">编辑</string>
+    <string name="nav_beauty">美颜</string>
+    <string name="nav_body">美体</string>
+    <string name="nav_filters">滤镜</string>
+    <string name="nav_tools">全部工具</string>
+
+    <!-- 首页控制台 -->
+    <string name="hero_title">释放无限创意灵感</string>
+    <string name="hero_subtitle">专业级AI照片修图与影棚级精修工坊</string>
+    <string name="btn_choose_photo">选择照片</string>
+    <string name="btn_take_photo">拍照</string>
+    <string name="btn_ai_edit">AI修图</string>
+    <string name="btn_try_sample">体验工坊样张</string>
+    <string name="section_ai_tools">AI智能工具</string>
+    <string name="section_quick_edit">快捷修图</string>
+    <string name="section_beauty">人像美颜</string>
+    <string name="section_body">身材塑形</string>
+    <string name="section_filters">艺术滤镜</string>
+    <string name="section_recent_projects">最近项目</string>
+    <string name="no_recent_projects">暂无最近项目，选择一张照片开启创作！</string>
+    <string name="view_all">查看全部</string>
+    <string name="search_tools_hint">搜索工具、调色选项与滤镜...</string>
+
+    <!-- 导入照片 -->
+    <string name="import_photo_title">选择图片</string>
+    <string name="import_gallery">手机相册</string>
+    <string name="import_camera">相机拍摄</string>
+    <string name="import_sample">工坊样张</string>
+    <string name="permission_camera_required">直接拍摄照片需要授予相机权限。</string>
+    <string name="grant_permission">授予权限</string>
+    <string name="cancelled_selection">已取消照片选择</string>
+    <string name="error_image_load">无法读取所选图片，请选择其他图片尝试。</string>
+
+    <!-- 编辑器控制 -->
+    <string name="action_undo">撤销</string>
+    <string name="action_redo">重做</string>
+    <string name="action_reset">重置</string>
+    <string name="action_compare">按住对比原图</string>
+    <string name="action_export">导出</string>
+    <string name="action_save">保存</string>
+    <string name="action_share">分享</string>
+    <string name="action_apply">应用</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_open">打开</string>
+    <string name="action_close">关闭</string>
+
+    <!-- 裁剪旋转 -->
+    <string name="action_crop">裁剪</string>
+    <string name="action_rotate">旋转</string>
+    <string name="action_flip">翻转</string>
+    <string name="action_straighten">矫正平直</string>
+
+    <!-- 基础调色 -->
+    <string name="tool_brightness">亮度</string>
+    <string name="tool_contrast">对比度</string>
+    <string name="tool_saturation">饱和度</string>
+    <string name="tool_exposure">曝光</string>
+    <string name="tool_highlights">高光</string>
+    <string name="tool_shadows">阴影</string>
+    <string name="tool_temperature">色温暖调</string>
+    <string name="tool_tint">色调</string>
+    <string name="tool_sharpness">锐度</string>
+    <string name="tool_blur">背景虚化</string>
+    <string name="tool_vignette">暗角暗边</string>
+
+    <!-- 高级调色 -->
+    <string name="tool_hsl">HSL色彩</string>
+    <string name="tool_curves">色调曲线</string>
+    <string name="tool_color_balance">色彩平衡</string>
+    <string name="advanced_tools">专业高级工具</string>
+
+    <!-- AI工坊与提示词 -->
+    <string name="ai_studio_title">AI工坊</string>
+    <string name="ai_studio_desc">使用自然语言指令智能重塑画面</string>
+    <string name="prompt_placeholder">输入AI编辑指令（例如：电影级戏剧光影、更换黑色衬衫）...</string>
+    <string name="btn_generate">AI生成处理</string>
+    <string name="ai_processing">AI引擎正在深度运算处理中...</string>
+    <string name="ai_not_configured_title">AI后端引擎就绪状态</string>
+    <string name="ai_not_configured_msg">模块化AIImageEngine接口已全面架构。云端AI端点需在AI Studio Secrets面板配置API密钥，本应用绝不生成虚假合成效果。</string>
+    <string name="example_prompts_title">精选建议指令</string>
+    <string name="prompt_remove_person">抹去背景里的路人</string>
+    <string name="prompt_change_shirt">将衬衫颜色换为纯黑色</string>
+    <string name="prompt_luxury_studio">将背景置换为高端奢华影棚</string>
+    <string name="prompt_cinematic_lighting">打造戏剧性电影质感光影</string>
+    <string name="prompt_sunset_sky">将天空更换为金黄壮丽晚霞</string>
+    <string name="prompt_sharpen_quality">超清画质修复并提升细节锐度</string>
+
+    <!-- AI一键画质增强 -->
+    <string name="ai_enhance_title">✨ AI智能画质增强</string>
+    <string name="ai_enhance_desc">多维度自动校准曝光、对比度、清晰度与皮肤通透质感</string>
+    <string name="enhancing_image">正在分析并优化图像细节...</string>
+    <string name="enhance_applied">AI增强已成功应用！</string>
+
+    <!-- 消除笔 -->
+    <string name="object_remover_title">智能路人与杂物消除</string>
+    <string name="object_remover_desc">涂抹需要消除的路人或多余杂物</string>
+    <string name="brush_size">画笔大小</string>
+    <string name="btn_remove_object">消除选中物体</string>
+    <string name="clear_mask">清除涂抹</string>
+    <string name="object_removal_notice">已完成本地边缘修补融合。生成式超清重绘模块已就绪，可随时连接云端AI。</string>
+
+    <!-- 背景工坊 -->
+    <string name="bg_tools_title">背景处理工坊</string>
+    <string name="bg_remover">一键抠图消底</string>
+    <string name="bg_blur">背景深度虚化</string>
+    <string name="bg_replace">置换背景</string>
+    <string name="bg_color">纯色/渐变底色</string>
+    <string name="bg_generator">AI智能生景</string>
+    <string name="color_solid">纯色背景</string>
+    <string name="color_gradient">渐变色彩</string>
+
+    <!-- 智能穿搭换装 -->
+    <string name="outfit_title">AI智能穿搭</string>
+    <string name="outfit_desc">无痕变换服饰色彩与款式，完整保留人脸与自然身形</string>
+    <string name="outfit_black_shirt">黑色休闲衬衫</string>
+    <string name="outfit_formal_suit">高级定制西装</string>
+    <string name="outfit_red_dress">真丝红色礼服</string>
+    <string name="outfit_leather_jacket">复古机车皮衣</string>
+    <string name="outfit_streetwear">潮流高街穿搭</string>
+
+    <!-- 身材塑形 -->
+    <string name="body_title">身材塑形</string>
+    <string name="body_desc">专业级比例微调与身体轮廓精雕</string>
+    <string name="body_slim">修身显瘦</string>
+    <string name="body_enlarge">丰盈塑形</string>
+    <string name="body_waist">小蛮腰</string>
+    <string name="body_shoulders">直角肩</string>
+    <string name="body_arms">纤细手臂</string>
+    <string name="body_legs">修长美腿</string>
+    <string name="body_hips">蜜桃臀</string>
+    <string name="body_chest">胸部轮廓</string>
+    <string name="body_height">增高拉长</string>
+    <string name="body_proportions">黄金头身比</string>
+    <string name="body_reset">重置身形</string>
+
+    <!-- 美颜工坊 -->
+    <string name="beauty_title">人像美颜</string>
+    <string name="cat_skin">肤质</string>
+    <string name="cat_makeup">妆容</string>
+    <string name="cat_eyes">眼眸</string>
+    <string name="cat_lips">唇部</string>
+    <string name="cat_hair">发型</string>
+    <string name="cat_face">脸型</string>
+    <string name="beauty_smoothing">细腻磨皮</string>
+    <string name="beauty_blemish">祛痘祛斑</string>
+    <string name="beauty_tone">健康肤色</string>
+    <string name="beauty_foundation">透亮粉底</string>
+    <string name="beauty_concealer">遮瑕修容</string>
+    <string name="beauty_blush">自然腮红</string>
+    <string name="beauty_lipstick">哑光口红</string>
+    <string name="beauty_eyeliner">精致眼线</string>
+    <string name="beauty_eyeshadow">立体眼影</string>
+    <string name="beauty_eyelashes">浓密睫毛</string>
+    <string name="beauty_eyebrows">自然眉形</string>
+    <string name="beauty_teeth">亮白牙齿</string>
+    <string name="beauty_hair_color">发色变换</string>
+    <string name="beauty_face_shape">精致瘦脸</string>
+    <string name="beauty_jaw">下颌线</string>
+    <string name="beauty_cheeks">苹果肌</string>
+    <string name="beauty_nose">精致立鼻</string>
+    <string name="beauty_chin">精巧下巴</string>
+
+    <!-- 滤镜预设 -->
+    <string name="filters_title">艺术滤镜库</string>
+    <string name="filter_none">原图</string>
+    <string name="filter_cinematic">电影质感</string>
+    <string name="filter_portrait">影棚人像</string>
+    <string name="filter_vintage">胶片复古</string>
+    <string name="filter_bw">黑白光影</string>
+    <string name="filter_warm">日落暖阳</string>
+    <string name="filter_cool">北欧冷调</string>
+    <string name="filter_fashion">时尚大片</string>
+    <string name="filter_night">赛博霓虹</string>
+    <string name="filter_travel">旅行故事</string>
+    <string name="filter_nature">翡翠森系</string>
+    <string name="filter_hdr">HDR高光</string>
+    <string name="filter_film">柯达胶卷</string>
+    <string name="filter_retro">90年代怀旧</string>
+    <string name="filter_intensity">滤镜浓度</string>
+    <string name="ai_filter_gen_title">AI创意滤镜生成器</string>
+    <string name="ai_filter_placeholder">描述期望的画面氛围与色调风格...</string>
+
+    <!-- 文字贴纸 -->
+    <string name="text_and_stickers">文字与装饰</string>
+    <string name="tool_text">添加文字</string>
+    <string name="tool_stickers">艺术贴纸</string>
+    <string name="tool_frame">相框边框</string>
+    <string name="tool_collage">拼接拼图</string>
+    <string name="add_text">新建文本</string>
+    <string name="text_hint">在此输入文字内容...</string>
+
+    <!-- 拼图模板 -->
+    <string name="layout_2_photo">双图拼接</string>
+    <string name="layout_3_photo">三图拼接</string>
+    <string name="layout_4_photo">四格网格拼图</string>
+
+    <!-- 导出画质 -->
+    <string name="export_title">导出与分享</string>
+    <string name="export_format">图片格式</string>
+    <string name="export_quality">保存画质</string>
+    <string name="export_resolution">导出分辨率</string>
+    <string name="estimated_file_size">预估文件大小</string>
+    <string name="btn_save_gallery">保存至相册</string>
+    <string name="btn_share_image">分享图片</string>
+    <string name="export_success">照片已成功保存至系统相册！</string>
+    <string name="export_failed">导出错误：</string>
+
+    <!-- 项目工程 -->
+    <string name="projects_title">最近工程</string>
+    <string name="project_name">未命名项目</string>
+    <string name="project_saved_success">项目已妥善保存</string>
+    <string name="confirm_delete_project">确定要删除此项目吗？</string>
+
+    <!-- 设置与关于 -->
+    <string name="settings_title">设置</string>
+    <string name="setting_language">语言设置 (Language)</string>
+    <string name="setting_theme">深浅主题</string>
+    <string name="theme_system">跟随系统模式</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色夜间模式</string>
+    <string name="setting_quality">默认保存画质</string>
+    <string name="setting_privacy">隐私政策与安全</string>
+    <string name="clear_projects">清除所有最近项目</string>
+    <string name="reset_settings">恢复默认设置</string>
+    <string name="about_title">关于工坊</string>
+    <string name="about_app">AI Photo Studio 影像工坊</string>
+    <string name="about_developed_by">开发者：</string>
+    <string name="about_developer">Sina Naderi</string>
+    <string name="about_email">开发者邮箱：</string>
+    <string name="about_email_val">sinananderi203@gmail.com</string>
+
+    <!-- 隐私声明 -->
+    <string name="privacy_title">隐私保护架构</string>
+    <string name="privacy_info">基础图像调色、人像美颜修图、美体拉伸与拼图均100%在手机本地芯片离线运算。在向外部云端AI模型发送图像前，系统严格征求用户同意授权。V1版本绝不会在远端云存储用户相片。</string>
+    <string name="local_processing_badge">本地离线安全运算架构</string>
+
+    <!-- 广告与激励体系 -->
+    <string name="premium_feature">Pro专业功能</string>
+    <string name="rewarded_ad_title">观看激励视频解锁</string>
+    <string name="rewarded_ad_desc">观看简短赞助视频以立即解锁高级AI工具体验</string>
+    <string name="ad_ready">可随时观看</string>
+    <string name="ad_unavailable">当前广告暂未就绪</string>
+    <string name="ad_completed">激励已达成，已成功解锁工具！</string>
+
+    <!-- Additional Editor V1.1 Strings -->
+    <string name="tool_fade">淡化 (Fade)</string>
+    <string name="tool_grain">胶片颗粒 (Grain)</string>
+    <string name="reset_individual">重置</string>
+    <string name="btn_apply_crop">应用裁剪</string>
+    <string name="btn_cancel_crop">取消</string>
+    <string name="transform_rotate_left">逆时针旋转 -90°</string>
+    <string name="transform_rotate_right">顺时针旋转 +90°</string>
+    <string name="transform_flip_h">水平翻转</string>
+    <string name="transform_flip_v">垂直翻转</string>
+    <string name="transform_straighten">矫正与水平校准</string>
+    <string name="ai_processing_required">需AI云端算力支持</string>
+    <string name="ai_beauty_notice">高级3D面部轮廓重塑需外部AI视觉语言大模型处理。</string>
+    <string name="text_tool_title">文字工坊</string>
+    <string name="text_font">字体</string>
+    <string name="text_color">颜色</string>
+    <string name="text_shadow">阴影</string>
+    <string name="text_badge">背景徽章</string>
+    <string name="text_opacity">不透明度</string>
+    <string name="text_rotate">旋转</string>
+    <string name="text_scale">缩放</string>
+    <string name="text_delete">删除文本</string>
+    <string name="nav_adjust">调色</string>
+    <string name="nav_crop">裁剪</string>
+    <string name="nav_transform">变换</string>
+    <string name="nav_text">文字</string>
+</resources>

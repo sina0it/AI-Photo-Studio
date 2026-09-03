@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">استودیو هوش مصنوعی عکس</string>
+    <string name="developer_name">سینا نادری</string>
+    <string name="developer_email">sinananderi203@gmail.com</string>
+    <string name="app_version">۱.۰</string>
+
+    <!-- انتخاب زبان -->
+    <string name="choose_language_title">زبان خود را انتخاب کنید</string>
+    <string name="choose_language_subtitle">برای شروع، زبان مورد نظر خود را مشخص نمایید</string>
+    <string name="continue_button">ادامه</string>
+    <string name="lang_en">English (انگلیسی)</string>
+    <string name="lang_fa">فارسی (Persian)</string>
+    <string name="lang_ar">العربية (عربی)</string>
+    <string name="lang_zh">中文 (چینی)</string>
+    <string name="lang_ru">Русский (روسی)</string>
+
+    <!-- ناوبری اصلی -->
+    <string name="nav_home">خانه</string>
+    <string name="nav_ai_studio">استودیو هوش مصنوعی</string>
+    <string name="nav_edit">ویرایش</string>
+    <string name="nav_beauty">زیبایی</string>
+    <string name="nav_body">اندام</string>
+    <string name="nav_filters">فیلترها</string>
+    <string name="nav_tools">ابزارها</string>
+
+    <!-- داشبورد اصلی -->
+    <string name="hero_title">خلق اثری شگفت‌انگیز</string>
+    <string name="hero_subtitle">ویرایش و روتوش حرفه‌ای تصویر با قدرت هوش مصنوعی</string>
+    <string name="btn_choose_photo">انتخاب تصویر</string>
+    <string name="btn_take_photo">دوربین</string>
+    <string name="btn_ai_edit">ویرایش با هوش مصنوعی</string>
+    <string name="btn_try_sample">نمونه آزمایشی استودیو</string>
+    <string name="section_ai_tools">ابزارهای هوش مصنوعی</string>
+    <string name="section_quick_edit">ویرایش سریع</string>
+    <string name="section_beauty">استودیو زیبایی چهره</string>
+    <string name="section_body">فرم‌دهی اندام</string>
+    <string name="section_filters">مجموعه فیلترها</string>
+    <string name="section_recent_projects">پروژه‌های اخیر</string>
+    <string name="no_recent_projects">هنوز پروژه‌ای وجود ندارد. یک عکس انتخاب کنید!</string>
+    <string name="view_all">مشاهده همه</string>
+    <string name="search_tools_hint">جستجوی ابزارها، تنظیمات و جلوه‌ها...</string>
+
+    <!-- وارد کردن تصویر -->
+    <string name="import_photo_title">انتخاب تصویر</string>
+    <string name="import_gallery">گالری تصاویر</string>
+    <string name="import_camera">دوربین</string>
+    <string name="import_sample">نمونه استودیو</string>
+    <string name="permission_camera_required">برای ثبت مستقیم عکس، دسترسی دوربین الزامی است.</string>
+    <string name="grant_permission">اعطای دسترسی</string>
+    <string name="cancelled_selection">انتخاب تصویر لغو شد</string>
+    <string name="error_image_load">خطا در بارگذاری تصویر انتخابی. لطفاً تصویر دیگری را امتحان کنید.</string>
+
+    <!-- کنترل‌های ویرایشگر -->
+    <string name="action_undo">واگرد (Undo)</string>
+    <string name="action_redo">ازنو (Redo)</string>
+    <string name="action_reset">بازنشانی</string>
+    <string name="action_compare">نگه دارید برای مقایسه</string>
+    <string name="action_export">خروجی</string>
+    <string name="action_save">ذخیره</string>
+    <string name="action_share">اشتراک‌گذاری</string>
+    <string name="action_apply">اعمال</string>
+    <string name="action_cancel">انصراف</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_rename">تغییر نام</string>
+    <string name="action_open">باز کردن</string>
+    <string name="action_close">بستن</string>
+
+    <!-- برش و هندسه -->
+    <string name="action_crop">برش تصویر</string>
+    <string name="action_rotate">چرخش</string>
+    <string name="action_flip">قرینه</string>
+    <string name="action_straighten">تراز افقی</string>
+
+    <!-- تنظیمات پایه -->
+    <string name="tool_brightness">روشنایی</string>
+    <string name="tool_contrast">کنتراست</string>
+    <string name="tool_saturation">غلظت رنگ</string>
+    <string name="tool_exposure">نوردهی (Exposure)</string>
+    <string name="tool_highlights">روشنایی‌های تند</string>
+    <string name="tool_shadows">سایه‌ها</string>
+    <string name="tool_temperature">گرمی رنگ</string>
+    <string name="tool_tint">ته‌رنگ (Tint)</string>
+    <string name="tool_sharpness">وضوح (Sharpness)</string>
+    <string name="tool_blur">ماتی پس‌زمینه</string>
+    <string name="tool_vignette">وینیت (تیرگی گوشه‌ها)</string>
+
+    <!-- تنظیمات پیشرفته -->
+    <string name="tool_hsl">رنگ‌های HSL</string>
+    <string name="tool_curves">منحنی‌های تن (Curves)</string>
+    <string name="tool_color_balance">توازن رنگی</string>
+    <string name="advanced_tools">ابزارهای حرفه‌ای</string>
+
+    <!-- استودیو هوش مصنوعی و دستورات -->
+    <string name="ai_studio_title">استودیو هوش مصنوعی</string>
+    <string name="ai_studio_desc">تغییر تصویر با توصیف متنی به زبان طبیعی</string>
+    <string name="prompt_placeholder">دستور هوش مصنوعی را بنویسید (مثلاً: نورپردازی سینمایی، حذف فرد)...</string>
+    <string name="btn_generate">تولید با هوش مصنوعی</string>
+    <string name="ai_processing">در حال پردازش در موتور هوش مصنوعی...</string>
+    <string name="ai_not_configured_title">وضعیت اتصال به هوش مصنوعی</string>
+    <string name="ai_not_configured_msg">رابط ماژولار AIImageEngine آماده است. سرور هوش مصنوعی نیازمند تنظیم کلید API در پنل تنظیمات است. نتایج ساختگی و غیرواقعی نمایش داده نمی‌شود.</string>
+    <string name="example_prompts_title">نمونه دستورات</string>
+    <string name="prompt_remove_person">حذف فرد در پس‌زمینه</string>
+    <string name="prompt_change_shirt">تغییر رنگ پیراهن به مشکی</string>
+    <string name="prompt_luxury_studio">تبدیل پس‌زمینه به یک استودیوی لوکس</string>
+    <string name="prompt_cinematic_lighting">ایجاد نورپردازی سینمایی و دراماتیک</string>
+    <string name="prompt_sunset_sky">تغییر آسمان به غروب آفتاب طلایی</string>
+    <string name="prompt_sharpen_quality">افزایش وضوح، جزئیات و کیفیت تصویر</string>
+
+    <!-- بهبود خودکار هوش مصنوعی -->
+    <string name="ai_enhance_title">✨ بهبود هوشمند تصویر</string>
+    <string name="ai_enhance_desc">بهینه‌سازی چندوجهی نور، کنتراست، وضوح و لطافت پوست</string>
+    <string name="enhancing_image">در حال تحلیل و بهبود جزئیات...</string>
+    <string name="enhance_applied">بهبود هوشمند با موفقیت اعمال شد!</string>
+
+    <!-- حذف اشیا -->
+    <string name="object_remover_title">پاک‌کن جادویی اشیاء</string>
+    <string name="object_remover_desc">روی شیء یا فرد ناخواسته قلم‌مو بکشید تا حذف شود</string>
+    <string name="brush_size">اندازه قلم‌مو</string>
+    <string name="btn_remove_object">حذف شیء</string>
+    <string name="clear_mask">پاک کردن ماسک</string>
+    <string name="object_removal_notice">ترمیم محلی انجام شد. ماژول ترمیم عمیق برای اتصال به هوش مصنوعی آماده است.</string>
+
+    <!-- ابزارهای پس‌زمینه -->
+    <string name="bg_tools_title">استودیو پس‌زمینه</string>
+    <string name="bg_remover">حذف پس‌زمینه</string>
+    <string name="bg_blur">تاری پس‌زمینه</string>
+    <string name="bg_replace">جایگزینی پس‌زمینه</string>
+    <string name="bg_color">رنگ پس‌زمینه</string>
+    <string name="bg_generator">تولید پس‌زمینه با هوش مصنوعی</string>
+    <string name="color_solid">رنگ یکدست</string>
+    <string name="color_gradient">طیف رنگی</string>
+
+    <!-- لباس و استایل -->
+    <string name="outfit_title">استایل و لباس هوشمند</string>
+    <string name="outfit_desc">تغییر رنگ و سبک پوشش با حفظ چهره و تناسب اندام</string>
+    <string name="outfit_black_shirt">پیراهن مشکی</string>
+    <string name="outfit_formal_suit">کت و شلوار رسمی</string>
+    <string name="outfit_red_dress">لباس ابریشمی سرخ</string>
+    <string name="outfit_leather_jacket">کاپشن چرم کلاسیک</string>
+    <string name="outfit_streetwear">استایل شهری مدرن</string>
+
+    <!-- ویرایشگر اندام -->
+    <string name="body_title">فرم‌دهی اندام</string>
+    <string name="body_desc">تنظیم دقیق تناسبات اندام بدون کشیدگی غیرطبیعی پس‌زمینه</string>
+    <string name="body_slim">لاغری</string>
+    <string name="body_enlarge">حجم‌دهی</string>
+    <string name="body_waist">کمر</string>
+    <string name="body_shoulders">شانه‌ها</string>
+    <string name="body_arms">بازوها</string>
+    <string name="body_legs">پاها</string>
+    <string name="body_hips">پهلو و باسن</string>
+    <string name="body_chest">سینه</string>
+    <string name="body_height">قد</string>
+    <string name="body_proportions">تناسب کلی اندام</string>
+    <string name="body_reset">بازنشانی اندام</string>
+
+    <!-- استودیو زیبایی -->
+    <string name="beauty_title">استودیو زیبایی</string>
+    <string name="cat_skin">پوست</string>
+    <string name="cat_makeup">آرایش</string>
+    <string name="cat_eyes">چشم‌ها</string>
+    <string name="cat_lips">لب‌ها</string>
+    <string name="cat_hair">موها</string>
+    <string name="cat_face">فرم چهره</string>
+    <string name="beauty_smoothing">صاف‌کردن پوست</string>
+    <string name="beauty_blemish">حذف لک و جوش</string>
+    <string name="beauty_tone">رنگ و تن پوست</string>
+    <string name="beauty_foundation">کرم پودر</string>
+    <string name="beauty_concealer">کانسیلر</string>
+    <string name="beauty_blush">رژگونه</string>
+    <string name="beauty_lipstick">رژ لب</string>
+    <string name="beauty_eyeliner">خط چشم</string>
+    <string name="beauty_eyeshadow">سایه چشم</string>
+    <string name="beauty_eyelashes">مژه‌ها</string>
+    <string name="beauty_eyebrows">تقویت ابرو</string>
+    <string name="beauty_teeth">سفید کردن دندان‌ها</string>
+    <string name="beauty_hair_color">رنگ مو</string>
+    <string name="beauty_face_shape">کانتورینگ صورت</string>
+    <string name="beauty_jaw">زاویه فک</string>
+    <string name="beauty_cheeks">گونه‌ها</string>
+    <string name="beauty_nose">کوچک‌کردن بینی</string>
+    <string name="beauty_chin">چانه</string>
+
+    <!-- فیلترها -->
+    <string name="filters_title">فیلترهای آماده</string>
+    <string name="filter_none">اصلی</string>
+    <string name="filter_cinematic">سینمایی</string>
+    <string name="filter_portrait">پرتره</string>
+    <string name="filter_vintage">وینتیج</string>
+    <string name="filter_bw">سیاه و سفید</string>
+    <string name="filter_warm">غروب گرم</string>
+    <string name="filter_cool">سرد اسکاندیناوی</string>
+    <string name="filter_fashion">مد و فشن</string>
+    <string name="filter_night">شب نئونی</string>
+    <string name="filter_travel">سفر</string>
+    <string name="filter_nature">طبیعت زمردین</string>
+    <string name="filter_hdr">شفافیت HDR</string>
+    <string name="filter_film">فیلم آنالوگ</string>
+    <string name="filter_retro">کلاسیک دهه ۹۰</string>
+    <string name="filter_intensity">شدت فیلتر</string>
+    <string name="ai_filter_gen_title">سازنده فیلتر با هوش مصنوعی</string>
+    <string name="ai_filter_placeholder">حال‌وهوا و حس تصویر را بنویسید (مثلاً: پرتره تاریک و مرموز)...</string>
+
+    <!-- متن و استیکر -->
+    <string name="text_and_stickers">متن و برچسب</string>
+    <string name="tool_text">متن</string>
+    <string name="tool_stickers">استیکر</string>
+    <string name="tool_frame">قاب</string>
+    <string name="tool_collage">کلاژ</string>
+    <string name="add_text">افزودن متن</string>
+    <string name="text_hint">متن مورد نظر را بنویسید...</string>
+
+    <!-- کلاژ -->
+    <string name="layout_2_photo">کلاژ ۲ عکسه</string>
+    <string name="layout_3_photo">کلاژ ۳ عکسه</string>
+    <string name="layout_4_photo">کلاژ ۴ عکسه شبکه‌ای</string>
+
+    <!-- خروجی -->
+    <string name="export_title">خروجی و ذخیره‌سازی</string>
+    <string name="export_format">فرمت خروجی</string>
+    <string name="export_quality">کیفیت</string>
+    <string name="export_resolution">رزولوشن</string>
+    <string name="estimated_file_size">حجم تخمینی فایل</string>
+    <string name="btn_save_gallery">ذخیره در گالری</string>
+    <string name="btn_share_image">اشتراک‌گذاری عکس</string>
+    <string name="export_success">تصویر با موفقیت در گالری ذخیره شد!</string>
+    <string name="export_failed">خطا در خروجی: </string>
+
+    <!-- پروژه‌ها -->
+    <string name="projects_title">پروژه‌های اخیر</string>
+    <string name="project_name">پروژه</string>
+    <string name="project_saved_success">پروژه ذخیره شد</string>
+    <string name="confirm_delete_project">آیا مطمئن هستید که این پروژه حذف شود؟</string>
+
+    <!-- تنظیمات و درباره ما -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="setting_language">زبان برنامه (Language)</string>
+    <string name="setting_theme">پوسته ظاهری</string>
+    <string name="theme_system">هماهنگ با سیستم</string>
+    <string name="theme_light">روشن</string>
+    <string name="theme_dark">تاریک (Dark)</string>
+    <string name="setting_quality">کیفیت ذخیره پیش‌فرض</string>
+    <string name="setting_privacy">حریم خصوصی و امنیت</string>
+    <string name="clear_projects">پاک‌سازی پروژه‌های اخیر</string>
+    <string name="reset_settings">بازنشانی تمام تنظیمات</string>
+    <string name="about_title">درباره برنامه</string>
+    <string name="about_app">استودیو هوش مصنوعی عکس (AI Photo Studio)</string>
+    <string name="about_developed_by">توسعه‌دهنده:</string>
+    <string name="about_developer">سینا نادری</string>
+    <string name="about_email">ایمیل پشتیبانی:</string>
+    <string name="about_email_val">sinananderi203@gmail.com</string>
+
+    <!-- حریم خصوصی -->
+    <string name="privacy_title">معماری حفظ حریم خصوصی</string>
+    <string name="privacy_info">تمام تنظیمات رنگ، زیبایی چهره، ویرایش اندام و کلاژها به صورت ۱۰۰٪ آفلاین روی دستگاه شما پردازش می‌شوند. هیچ تصویری بدون تأیید صریح کاربر به سرور هوش مصنوعی فرستاده نمی‌شود.</string>
+    <string name="local_processing_badge">پردازش کاملاً آفلاین و محلی</string>
+
+    <!-- تبلیغات و نسخه ویژه -->
+    <string name="premium_feature">امکان ویژه (Pro)</string>
+    <string name="rewarded_ad_title">بازگشایی با مشاهده تبلیغ</string>
+    <string name="rewarded_ad_desc">با مشاهده یک ویدیوی کوتاه، این ابزار هوش مصنوعی را باز کنید</string>
+    <string name="ad_ready">آماده مشاهده</string>
+    <string name="ad_unavailable">تبلیغ در حال حاضر آماده نیست</string>
+    <string name="ad_completed">ابزار ویژه با موفقیت باز شد!</string>
+
+    <!-- Additional Editor V1.1 Strings -->
+    <string name="tool_fade">محو شدگی (Fade)</string>
+    <string name="tool_grain">دانه فیلم (Grain)</string>
+    <string name="reset_individual">بازنشانی</string>
+    <string name="btn_apply_crop">اعمال برش</string>
+    <string name="btn_cancel_crop">لغو</string>
+    <string name="transform_rotate_left">چرخش -۹۰°</string>
+    <string name="transform_rotate_right">چرخش +۹۰°</string>
+    <string name="transform_flip_h">قرینه افقی</string>
+    <string name="transform_flip_v">قرینه عمودی</string>
+    <string name="transform_straighten">تراز و صاف کردن</string>
+    <string name="ai_processing_required">نیاز به پردازش ابری هوش مصنوعی</string>
+    <string name="ai_beauty_notice">تغییرات ساختاری سه‌بعدی چهره نیاز به مدل ابری دارد و از طریق هوش مصنوعی متصل می‌شود.</string>
+    <string name="text_tool_title">ویرایش متن</string>
+    <string name="text_font">فونت</string>
+    <string name="text_color">رنگ</string>
+    <string name="text_shadow">سایه</string>
+    <string name="text_badge">کادر زمینه</string>
+    <string name="text_opacity">شفافیت</string>
+    <string name="text_rotate">چرخش</string>
+    <string name="text_scale">اندازه</string>
+    <string name="text_delete">حذف متن</string>
+    <string name="nav_adjust">تنظیمات</string>
+    <string name="nav_crop">برش</string>
+    <string name="nav_transform">چرخش و ابعاد</string>
+    <string name="nav_text">متن</string>
+</resources>

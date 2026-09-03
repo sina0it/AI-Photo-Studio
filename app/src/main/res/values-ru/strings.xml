@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Photo Studio</string>
+    <string name="developer_name">Sina Naderi</string>
+    <string name="developer_email">sinananderi203@gmail.com</string>
+    <string name="app_version">1.0</string>
+
+    <!-- Выбор языка -->
+    <string name="choose_language_title">Выберите язык</string>
+    <string name="choose_language_subtitle">Выберите предпочтительный язык для начала работы</string>
+    <string name="continue_button">Продолжить</string>
+    <string name="lang_en">English (Английский)</string>
+    <string name="lang_fa">فارسی (Персидский)</string>
+    <string name="lang_ar">العربية (Арабский)</string>
+    <string name="lang_zh">中文 (Китайский)</string>
+    <string name="lang_ru">Русский (Russian)</string>
+
+    <!-- Главная навигация -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_ai_studio">AI Студия</string>
+    <string name="nav_edit">Правка</string>
+    <string name="nav_beauty">Красота</string>
+    <string name="nav_body">Тело</string>
+    <string name="nav_filters">Фильтры</string>
+    <string name="nav_tools">Инструменты</string>
+
+    <!-- Главный экран -->
+    <string name="hero_title">Создавайте потрясающее</string>
+    <string name="hero_subtitle">Профессиональная студия обработки фото с искусственным интеллектом</string>
+    <string name="btn_choose_photo">Выбрать фото</string>
+    <string name="btn_take_photo">Камера</string>
+    <string name="btn_ai_edit">AI Редактор</string>
+    <string name="btn_try_sample">Пример из студии</string>
+    <string name="section_ai_tools">Инструменты AI</string>
+    <string name="section_quick_edit">Быстрая правка</string>
+    <string name="section_beauty">Студия красоты</string>
+    <string name="section_body">Коррекция тела</string>
+    <string name="section_filters">Фильтры</string>
+    <string name="section_recent_projects">Недавние проекты</string>
+    <string name="no_recent_projects">Нет проектов. Выберите фото, чтобы начать!</string>
+    <string name="view_all">Все</string>
+    <string name="search_tools_hint">Поиск инструментов, эффектов и фильтров...</string>
+
+    <!-- Импорт фото -->
+    <string name="import_photo_title">Выбор фотографии</string>
+    <string name="import_gallery">Галерея</string>
+    <string name="import_camera">Камера</string>
+    <string name="import_sample">Пример фото</string>
+    <string name="permission_camera_required">Требуется разрешение камеры для съемки фото.</string>
+    <string name="grant_permission">Предоставить доступ</string>
+    <string name="cancelled_selection">Выбор фото отменен</string>
+    <string name="error_image_load">Не удалось открыть фото. Попробуйте другой файл.</string>
+
+    <!-- Панель редактора -->
+    <string name="action_undo">Отменить</string>
+    <string name="action_redo">Повторить</string>
+    <string name="action_reset">Сброс</string>
+    <string name="action_compare">Удерживайте для сравнения</string>
+    <string name="action_export">Экспорт</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_apply">Применить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_rename">Переименовать</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_close">Закрыть</string>
+
+    <!-- Обрезка и геометрия -->
+    <string name="action_crop">Обрезка</string>
+    <string name="action_rotate">Поворот</string>
+    <string name="action_flip">Отразить</string>
+    <string name="action_straighten">Выравнивание</string>
+
+    <!-- Базовые настройки -->
+    <string name="tool_brightness">Яркость</string>
+    <string name="tool_contrast">Контраст</string>
+    <string name="tool_saturation">Насыщенность</string>
+    <string name="tool_exposure">Экспозиция</string>
+    <string name="tool_highlights">Светлые тона</string>
+    <string name="tool_shadows">Тени</string>
+    <string name="tool_temperature">Теплота</string>
+    <string name="tool_tint">Оттенок</string>
+    <string name="tool_sharpness">Резкость</string>
+    <string name="tool_blur">Размытие</string>
+    <string name="tool_vignette">Виньетка</string>
+
+    <!-- Профессиональные настройки -->
+    <string name="tool_hsl">Цвета HSL</string>
+    <string name="tool_curves">Кривые</string>
+    <string name="tool_color_balance">Баланс цвета</string>
+    <string name="advanced_tools">Pro настройки</string>
+
+    <!-- AI Студия -->
+    <string name="ai_studio_title">AI Студия</string>
+    <string name="ai_studio_desc">Преобразите снимок с помощью текстовых команд</string>
+    <string name="prompt_placeholder">Введите команду AI (например: кинематографичный свет, заменить фон)...</string>
+    <string name="btn_generate">Генерация с AI</string>
+    <string name="ai_processing">Обработка в нейросетевом движке...</string>
+    <string name="ai_not_configured_title">Статус подключения AI</string>
+    <string name="ai_not_configured_msg">Модульный интерфейс AIImageEngine готов к работе. Для облачной обработки настройте ключ API в панели Secrets AI Studio. Мы не создаем ложных имитаций.</string>
+    <string name="example_prompts_title">Примеры запросов</string>
+    <string name="prompt_remove_person">Удалить человека на заднем плане</string>
+    <string name="prompt_change_shirt">Изменить цвет рубашки на черный</string>
+    <string name="prompt_luxury_studio">Сделать фон в стиле роскошной фотостудии</string>
+    <string name="prompt_cinematic_lighting">Сделать освещение кинематографичным</string>
+    <string name="prompt_sunset_sky">Заменить небо на закатное солнце</string>
+    <string name="prompt_sharpen_quality">Увеличить четкость и детализацию</string>
+
+    <!-- AI Автоулучшение -->
+    <string name="ai_enhance_title">✨ AI Автоулучшение</string>
+    <string name="ai_enhance_desc">Многофакторная оптимизация экспозиции, контраста, четкости и тона кожи</string>
+    <string name="enhancing_image">Анализ и улучшение деталей...</string>
+    <string name="enhance_applied">AI Улучшение успешно применено!</string>
+
+    <!-- Удаление объектов -->
+    <string name="object_remover_title">Удаление объектов</string>
+    <string name="object_remover_desc">Закрасьте ненужный объект кистью для удаления</string>
+    <string name="brush_size">Размер кисти</string>
+    <string name="btn_remove_object">Удалить объект</string>
+    <string name="clear_mask">Очистить маску</string>
+    <string name="object_removal_notice">Применено локальное закрашивание. Модуль генеративного закрашивания готов к подключению AI.</string>
+
+    <!-- Инструменты фона -->
+    <string name="bg_tools_title">Студия фона</string>
+    <string name="bg_remover">Удалить фон</string>
+    <string name="bg_blur">Размыть фон</string>
+    <string name="bg_replace">Заменить фон</string>
+    <string name="bg_color">Цвет фона</string>
+    <string name="bg_generator">AI Генерация фона</string>
+    <string name="color_solid">Сплошной цвет</string>
+    <string name="color_gradient">Градиент</string>
+
+    <!-- Одежда и стиль -->
+    <string name="outfit_title">AI Стиль и одежда</string>
+    <string name="outfit_desc">Меняйте фасон и цвет одежды с сохранением внешности</string>
+    <string name="outfit_black_shirt">Черная рубашка</string>
+    <string name="outfit_formal_suit">Деловой костюм</string>
+    <string name="outfit_red_dress">Красное шелковое платье</string>
+    <string name="outfit_leather_jacket">Кожаная куртка</string>
+    <string name="outfit_streetwear">Городской стритвир</string>
+
+    <!-- Коррекция тела -->
+    <string name="body_title">Коррекция тела</string>
+    <string name="body_desc">Пропорциональная подтяжка контуров без искажения фона</string>
+    <string name="body_slim">Стройность</string>
+    <string name="body_enlarge">Объем</string>
+    <string name="body_waist">Талия</string>
+    <string name="body_shoulders">Плечи</string>
+    <string name="body_arms">Руки</string>
+    <string name="body_legs">Ноги</string>
+    <string name="body_hips">Бедра</string>
+    <string name="body_chest">Грудь</string>
+    <string name="body_height">Рост</string>
+    <string name="body_proportions">Пропорции тела</string>
+    <string name="body_reset">Сбросить тело</string>
+
+    <!-- Студия красоты -->
+    <string name="beauty_title">Студия красоты</string>
+    <string name="cat_skin">КОЖА</string>
+    <string name="cat_makeup">МАКИЯЖ</string>
+    <string name="cat_eyes">ГЛАЗА</string>
+    <string name="cat_lips">ГУБЫ</string>
+    <string name="cat_hair">ВОЛОСЫ</string>
+    <string name="cat_face">ЛИЦО</string>
+    <string name="beauty_smoothing">Гладкость кожи</string>
+    <string name="beauty_blemish">Удаление дефектов</string>
+    <string name="beauty_tone">Тон кожи</string>
+    <string name="beauty_foundation">Тональная основа</string>
+    <string name="beauty_concealer">Консилер</string>
+    <string name="beauty_blush">Румяна</string>
+    <string name="beauty_lipstick">Помада</string>
+    <string name="beauty_eyeliner">Подводка</string>
+    <string name="beauty_eyeshadow">Тени</string>
+    <string name="beauty_eyelashes">Ресницы</string>
+    <string name="beauty_eyebrows">Форма бровей</string>
+    <string name="beauty_teeth">Отбеливание зубов</string>
+    <string name="beauty_hair_color">Цвет волос</string>
+    <string name="beauty_face_shape">Овал лица</string>
+    <string name="beauty_jaw">Скулы и челюсть</string>
+    <string name="beauty_cheeks">Щеки</string>
+    <string name="beauty_nose">Форма носа</string>
+    <string name="beauty_chin">Подбородок</string>
+
+    <!-- Фильтры -->
+    <string name="filters_title">Пресеты фильтров</string>
+    <string name="filter_none">Оригинал</string>
+    <string name="filter_cinematic">Кино</string>
+    <string name="filter_portrait">Портрет</string>
+    <string name="filter_vintage">Винтаж</string>
+    <string name="filter_bw">Черно-белое</string>
+    <string name="filter_warm">Теплый закат</string>
+    <string name="filter_cool">Северный холод</string>
+    <string name="filter_fashion">Глянец</string>
+    <string name="filter_night">Неоновая ночь</string>
+    <string name="filter_travel">Путешествия</string>
+    <string name="filter_nature">Изумрудная природа</string>
+    <string name="filter_hdr">HDR Резкость</string>
+    <string name="filter_film">Пленка</string>
+    <string name="filter_retro">Ретро 90-х</string>
+    <string name="filter_intensity">Интенсивность</string>
+    <string name="ai_filter_gen_title">AI Генератор фильтров</string>
+    <string name="ai_filter_placeholder">Опишите желаемую атмосферу и стиль...</string>
+
+    <!-- Текст и стикеры -->
+    <string name="text_and_stickers">Текст и стикеры</string>
+    <string name="tool_text">Текст</string>
+    <string name="tool_stickers">Стикеры</string>
+    <string name="tool_frame">Рамка</string>
+    <string name="tool_collage">Коллаж</string>
+    <string name="add_text">Добавить текст</string>
+    <string name="text_hint">Введите текст...</string>
+
+    <!-- Шаблоны коллажей -->
+    <string name="layout_2_photo">Коллаж из 2 фото</string>
+    <string name="layout_3_photo">Коллаж из 3 фото</string>
+    <string name="layout_4_photo">Сетка из 4 фото</string>
+
+    <!-- Экспорт -->
+    <string name="export_title">Экспорт фото</string>
+    <string name="export_format">Формат изображения</string>
+    <string name="export_quality">Качество</string>
+    <string name="export_resolution">Разрешение</string>
+    <string name="estimated_file_size">Примерный размер файла</string>
+    <string name="btn_save_gallery">Сохранить в галерею</string>
+    <string name="btn_share_image">Поделиться фото</string>
+    <string name="export_success">Фото успешно сохранено в галерею!</string>
+    <string name="export_failed">Ошибка экспорта: </string>
+
+    <!-- Проекты -->
+    <string name="projects_title">Недавние проекты</string>
+    <string name="project_name">Проект</string>
+    <string name="project_saved_success">Проект сохранен</string>
+    <string name="confirm_delete_project">Удалить этот проект?</string>
+
+    <!-- Настройки и о программе -->
+    <string name="settings_title">Настройки</string>
+    <string name="setting_language">Язык приложения</string>
+    <string name="setting_theme">Тема оформления</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая тема</string>
+    <string name="theme_dark">Темная тема</string>
+    <string name="setting_quality">Качество сохранения</string>
+    <string name="setting_privacy">Конфиденциальность и безопасность</string>
+    <string name="clear_projects">Очистить список проектов</string>
+    <string name="reset_settings">Сбросить все настройки</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_app">AI Photo Studio</string>
+    <string name="about_developed_by">Разработчик:</string>
+    <string name="about_developer">Sina Naderi</string>
+    <string name="about_email">Email разработчика:</string>
+    <string name="about_email_val">sinananderi203@gmail.com</string>
+
+    <!-- Конфиденциальность -->
+    <string name="privacy_title">Архитектура безопасности</string>
+    <string name="privacy_info">Базовая цветокоррекция, фильтры красоты лица, пластика тела и коллажи выполняются на 100% локально на вашем устройстве. Ни одно фото не отправляется во внешние AI-сервисы без явного согласия пользователя. В V1 фото не сохраняются на удаленных серверах.</string>
+    <string name="local_processing_badge">100% Локальная обработка на устройстве</string>
+
+    <!-- Реклама и Pro -->
+    <string name="premium_feature">Pro функция</string>
+    <string name="rewarded_ad_title">Разблокировать за рекламу</string>
+    <string name="rewarded_ad_desc">Посмотрите короткий ролик спонсора, чтобы открыть этот AI инструмент</string>
+    <string name="ad_ready">Готово к просмотру</string>
+    <string name="ad_unavailable">Реклама пока недоступна</string>
+    <string name="ad_completed">Инструмент успешно открыт!</string>
+
+    <!-- Additional Editor V1.1 Strings -->
+    <string name="tool_fade">Выцветание (Fade)</string>
+    <string name="tool_grain">Зернистость (Grain)</string>
+    <string name="reset_individual">Сброс</string>
+    <string name="btn_apply_crop">Применить обрезку</string>
+    <string name="btn_cancel_crop">Отмена</string>
+    <string name="transform_rotate_left">Повернуть -90°</string>
+    <string name="transform_rotate_right">Повернуть +90°</string>
+    <string name="transform_flip_h">Отразить по горизонтали</string>
+    <string name="transform_flip_v">Отразить по вертикали</string>
+    <string name="transform_straighten">Выравнивание горизонта</string>
+    <string name="ai_processing_required">Требуется облачный AI</string>
+    <string name="ai_beauty_notice">Продвинутая 3D коррекция черт лица требует подключения к облачной модели через AIImageEngine.</string>
+    <string name="text_tool_title">Студия текста</string>
+    <string name="text_font">Шрифт</string>
+    <string name="text_color">Цвет</string>
+    <string name="text_shadow">Тень</string>
+    <string name="text_badge">Фоновая плашка</string>
+    <string name="text_opacity">Прозрачность</string>
+    <string name="text_rotate">Поворот</string>
+    <string name="text_scale">Масштаб</string>
+    <string name="text_delete">Удалить текст</string>
+    <string name="nav_adjust">Коррекция</string>
+    <string name="nav_crop">Обрезка</string>
+    <string name="nav_transform">Трансформация</string>
+    <string name="nav_text">Текст</string>
+</resources>
